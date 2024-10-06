@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String testEndpoint() {
-        return "Hello, Fertmind66 is up and running!";
+        return "Hola, Fertmind66 esta listo y con pull request activados!";
     }
 }
